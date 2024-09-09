@@ -1,34 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS';
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
-    color: #000080;
+    background-color: #000000;
+    color: #ff0000;
 }
 
 header {
-    background-color: #176fc7;
+    background-color: #ff0000;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 main {
     min-height: 70vh;
+    .gif1{
+        width: 1000px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .homer{
+        width: 250px;
+        margin: 0 left;
+        display: block;
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+    .pr{
+        width: 250px;
+        margin: 0 left;
+        display: block;
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+    .paloma{
+        text-align: right;
+        
+        margin: 0;
+    }
 }
 
 footer {
-    background-color: #176fc7;
-    color: white;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    .ca{
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .tenya{
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
 }
 
 footer p {
