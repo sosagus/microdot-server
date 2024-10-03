@@ -1,0 +1,33 @@
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button_slide {
+    color: #ffffff;
+    border: 2px solid #ff0000;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "comic sans MS", Monaco, monospace;
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+.slide_left:hover {
+    box-shadow: inset 0 0 0 50px #ff0000;
+    }
+
+.led-control-container {
+  display: flex; /* Usa Flexbox para organizar la imagen y los botones en una fila */
+  align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+  gap: 20px; /* Espacio entre la imagen y los botones */
+  margin: 20px auto; /* Centra el contenedor horizontalmente */
+  width: auto; /* Ajusta el ancho del contenedor al contenido */
+}
+
+#outer {
+  text-align: center; /* Centra los botones dentro de su contenedor */
+  margin-left: 20px; /* Añade un margen izquierdo para separar los botones de la imagen */
+}

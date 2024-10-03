@@ -3,21 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad #</title>
+    <title>Actividad 2</title>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/estilos.css">
 </head>
-<body>
+<body background="images/anonimu.jpg" class="anon2">
     <header>
-        <h1>Actividad #</h1>
+        <h1>Actividad 2</h1>
     </header>
     <main>
+
+    <div class="led-control-container">
+        <!-- Contenedor de los botones -->
+        <div id="outer">
+            <br /><br /><br />
+            <div class="button_slide slide_left botones" onclick="toggleLed(1)">LED1</div>
+            <br /><br /><br />
+            <div class="button_slide slide_left botones" onclick="toggleLed(2)">LED2</div>
+            <br /><br /><br />
+            <div class="button_slide slide_left botones" onclick="toggleLed(3)">LED3</div>
+        </div>
+    </div>
+
+    <script>
+        function toggleLed(led) {
+            fetch(`/toggle/led/${led}`);
+        }
+    </script>
     </main>
     <footer>
-        <p>Representación Frontal y Visual de Datos</p>
-        <p>Computadoras de Aeronaves</p>
-        <p>Alumno XX</p>
-        <p>Prof. Carlassara Fabrizio</p>
-        <p id="fecha"></p>
+        <img src="images/ano2.jpg" class="anon1">
+        <img src="images/frame.png" class="qr">
+        <p class="text"> donar 0.00000233445654 BTC </p>
+        <p class="bien"> Bienvenido a mi página...</p>
     </footer>
     <script src="scripts/base.js"></script>
 </body>

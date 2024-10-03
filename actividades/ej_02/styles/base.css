@@ -7,7 +7,6 @@ body {
 }
 
 header {
-    background-color: #176fc7;
     padding: 20px 0;
     text-align: center;
 }
@@ -18,15 +17,43 @@ header h1 {
 }
 
 main {
-    min-height: 70vh;
+    display: flex;
+}
+.qr{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 39px;
+    width: 200px;
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+
+}
+.anon1{
+        width: 500px;
+        display: block; 
+        margin-left: 825px;
+    }
+.anon2{
+    background-size: 20%;
+}
+
+.bien{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
 }
 
 footer {
-    background-color: #176fc7;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
