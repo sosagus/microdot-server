@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    max-height: 100vh;
+}
+
+header{
+  font-family: Impact;
+}
+
+footer{
+  font-family: Impact;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.temperatura-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: #000000;
+  border: 2px solid #fbff00;
+  border-radius: 10px;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 30px;
+}
+
+.gr {
+  width: 150%;
+  height: auto;
+}
+
+.temperature-slider{
+  accent-color: red;
+}

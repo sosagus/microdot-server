@@ -3,22 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad #</title>
+    <title>Actividad 3</title>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <h1>Actividad #</h1>
+        <h1>Actividad 3</h1>
     </header>
     <main>
+    <div class="temperatura-contenedor">
+        <div id="temperature-display"> 
+            Temperatura: <span id="temperatura">0</span>°C
+        </div>
+        <label for="temperature-slider">Setear temperatura:</label>
+        <input type="range" class="temperature-slider" id="temperature-slider" name="temperature-slider" min="0" max="100" value="0" oninput="updateTemperatura(this.value)">
+        <span id="temperature_slider_value">0</span>°C
+        <div id="estado-buzzer">
+            Buzzer: <span id="buzzer-state">OFF</span>
+        </div>
+    </div>
+    <div class="media">
+        <img class="gr" src="images/grp.gif">
+    </div>
+
     </main>
     <footer>
         <p>Representación Frontal y Visual de Datos</p>
         <p>Computadoras de Aeronaves</p>
-        <p>Alumno XX</p>
+        <p>Gustavo Ariel Sosa</p>
         <p>Prof. Carlassara Fabrizio</p>
         <p id="fecha"></p>
     </footer>
+
     <script src="scripts/base.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
